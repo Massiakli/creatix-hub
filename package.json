@@ -1,6 +1,18 @@
 {
   "name": "creatix-backend",
   "version": "1.0.0",
+  {
+  "name": "your-app-name",
+  "version": "0.1.0",
+  "homepage": "https://<your-username>.github.io/<your-repo-name>",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    ...
+  },
+  ...
+}
+
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
