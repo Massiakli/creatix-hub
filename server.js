@@ -74,3 +74,7 @@ app.post('/api/projects', authMiddleware, async (req, res) => {
 });
 
 app.listen(5000, () => console.log('Server running at http://localhost:5000'));
+app.get('/', (req, res) => {
+  res.send('✅ API is working! Use GET /api/projects');
+});
+
